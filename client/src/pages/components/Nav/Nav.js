@@ -19,7 +19,7 @@ class Nav extends Component {
 
   style = {
     width: "100%",
-    backgroundColor: this.props.background,
+    backgroundColor: "transparent",
     opacity: 1,
     zIndex:997
   }
@@ -37,20 +37,20 @@ class Nav extends Component {
           <div className="nav" style={this.style}>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/technology">Technologies</a></li>
-              <li><a href="/portfolio">Portfolio</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="#resume">About</a></li>
+              <li><a href="#techDiv">Technologies</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
           ) : (
           <div className="nav" style={this.style}>
             <ul>
-              <li style={{opacity:0}}><a href="/">Home</a></li>
-              <li style={{opacity:0}}><a href="/about">About</a></li>
-              <li style={{opacity:0}}><a href="/technology">Technologies</a></li>
-              <li style={{opacity:0}}><a href="/portfolio">Portfolio</a></li>
-              <li style={{opacity:0}}><a href="/contact">Contact</a></li>
+              <li style={{opacity:0}}><a href="">Home</a></li>
+              <li style={{opacity:0}}><a href="">About</a></li>
+              <li style={{opacity:0}}><a href="">Technologies</a></li>
+              <li style={{opacity:0}}><a href="">Portfolio</a></li>
+              <li style={{opacity:0}}><a href="">Contact</a></li>
             </ul>
           </div>)
         }

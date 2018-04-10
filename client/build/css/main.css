@@ -82,7 +82,7 @@ a.hover {
   background color: white;
   top: 0;
   left: 0;
-  position: fixed;
+  position: relative;
   min-width: 100%;
   opacity: 1;
   z-index: 999;
@@ -512,9 +512,8 @@ body {
   width: 19vh;
 }
 
-.tech,
-.cont {
-  margin-top: 10vh;
+.tech {
+  margin-top: 5vh;
 }
 
 .techList {
@@ -522,7 +521,7 @@ body {
 }
 
 .port {
-  margin-top: 15vh;
+  margin-top: 5vh;
 }
 
 .scrollButtons {

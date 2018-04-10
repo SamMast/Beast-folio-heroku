@@ -1,7 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
-import Footer from "../components/Footer";
 
 
 const Resume = () => (
@@ -14,9 +13,7 @@ const Resume = () => (
 	    </div>
 	  	<Nav background="white"/>
 	  	<br />
-	  	<br />
-	  	<br />
-	  	<div style={{position:"fixed",top:"17%",minWidth:"100%",backgroundColor:"white",opacity:1,zIndex:998}}>
+	  	<div style={{position:"absolute",minWidth:"100%",backgroundColor:"white",opacity:1,zIndex:990}}>
 	  		<img className="zoomer" src="https://sammast.github.io/Responsive-Portfolio/assets/images/IMG_3302.jpg" alt="sam" style={{display:"block",margin:"auto",borderRadius:"50%",height:"25vh",width:"25vh",boxShadow:"0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)"}} />
 	  	</div>
   	</div>
@@ -99,7 +96,6 @@ const Resume = () => (
 		    </div>
 		  </li>
 		</ul>  
-	    <Footer />
     </div>
   </div>
 );

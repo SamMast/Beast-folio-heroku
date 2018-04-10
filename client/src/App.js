@@ -9,15 +9,19 @@ import Technologies from "./pages/Technologies";
 
 //version with 1 footer
 const App = () => (
-  <Router>
     <div>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={Resume} />
-      <Route exact path="/portfolio" component={Portfolio} />
-      <Route path="/technology" component={Technologies} />
-      <Route path="/contact" component={Contact} />
+	    <Home />
+	    <Resume />
+		<br />
+		<Technologies />
+	    <Portfolio />
+	    <br />
+	    <br />
+	    <br />
+	    <br />
+	    <Contact />
+
     </div>
-  </Router>
 );
 
 
