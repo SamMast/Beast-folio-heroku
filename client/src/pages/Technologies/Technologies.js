@@ -1,14 +1,36 @@
 import React from "react";
 import Nav from "../components/Nav";
+import { StickyContainer, Sticky } from 'react-sticky';
 
 
 const Technologies = props => (
-  <div id="techDiv">
-    <div className="pageHeader" style={{width:"100%",backgroundColor:"white",opacity:1,zIndex:998}}>
-      <hr />
-      <h2 className="text-center" >Technologies</h2>
-      <hr />
-    </div>
+  <StickyContainer id="techDiv">
+    <Sticky className="pageHeader" style={{width:"100%",backgroundColor:"white",opacity:1,zIndex:998}}>
+      {
+        ({
+          style = {
+            position:"fixed",
+            top:"0vh",
+            zIndex:999,
+            backgroundColor:"white"
+          },
+
+          isSticky,
+          wasSticky,
+          distanceFromTop,
+          distanceFromBottom,
+          calculatedHeight
+        }) => {
+          return (
+            <div className="stickyHeader" style={style}>
+              <hr />
+              <h2 className="text-center" >Technologies</h2>
+              <hr />
+            </div>
+          )
+        }
+      }
+    </Sticky>
     <Nav background="white"/>
     <br />
     <br />
@@ -35,7 +57,7 @@ const Technologies = props => (
       </ul>
     </div>
     <div style={{clear:"both"}}></div>
-  </div>
+  </StickyContainer>
 );
 
 

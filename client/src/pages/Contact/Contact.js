@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import API from "../../utils/API";
+import { StickyContainer, Sticky } from 'react-sticky';
+
 
 class Contact extends Component {
   state = {
@@ -49,12 +51,34 @@ class Contact extends Component {
 
   render() {
     return (
-      <div id="contact">
-        <div className="pageHeader" style={{width:"100%",backgroundColor:"white",opacity:1,zIndex:998}}>
-          <hr />
-          <h2 className="text-center" >Contact Form</h2>
-          <hr />
-        </div>
+      <StickyContainer id="contact">
+        <Sticky className="pageHeader" style={{width:"100%",backgroundColor:"white",opacity:1,zIndex:998}}>
+        {
+          ({
+            style = {
+              position:"fixed",
+              top:"0vh",
+              zIndex:999,
+              backgroundColor:"white"
+            },
+
+            isSticky,
+            wasSticky,
+            distanceFromTop,
+            distanceFromBottom,
+            calculatedHeight
+          }) => {
+            return (
+              <div className="stickyHeader" style={style}>
+                <hr />
+                <h2 className="text-center" >Contact Form</h2>
+                <hr />
+              </div>
+            )
+          }
+        }
+
+        </Sticky>
         <Nav background="white"/>
         <br />
         <br />
@@ -133,7 +157,7 @@ class Contact extends Component {
           <br />
           <Footer />
         </div>
-      </div>
+      </StickyContainer>
     );
   }
 }

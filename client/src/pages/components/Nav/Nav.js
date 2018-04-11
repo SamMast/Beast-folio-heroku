@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import scrollToElement from 'scroll-to-element';
 
 class Nav extends Component {
   state = {
@@ -24,6 +24,12 @@ class Nav extends Component {
     zIndex:997
   }
 
+  scroll = (event) => {
+  let element = event.target.name;
+  
+  scrollToElement("#" + element);
+  }
+
   render() {
     return (
       <div>
@@ -36,11 +42,10 @@ class Nav extends Component {
         {this.state.menuOpen ? (
           <div className="nav" style={this.style}>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="#resume">About</a></li>
-              <li><a href="#techDiv">Technologies</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a name="resume" onClick= {this.scroll}>About</a></li>
+              <li><a name="techDiv" onClick= {this.scroll}>Technologies</a></li>
+              <li><a name="portfolio" onClick= {this.scroll}>Portfolio</a></li>
+              <li><a name="contact" onClick= {this.scroll}>Contact</a></li>
             </ul>
           </div>
           ) : (
@@ -61,6 +66,14 @@ class Nav extends Component {
           <a href="https://github.com/SamMast/" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
           <br/>
           <a href="mailto:samuel.a.mast@gmail.com"><i className="fa fa-envelope"></i></a>
+        </div>
+
+        <div className="arrow pulse">
+          <a href="#resume"><i className="fa fa-arrow-down"></i></a>
+        </div>
+
+        <div className="topButton pulse">
+          <a href="/"><i className="fa fa-home"></i></a>
         </div>
 
       </div>

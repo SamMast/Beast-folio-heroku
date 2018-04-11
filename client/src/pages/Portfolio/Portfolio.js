@@ -4,6 +4,8 @@ import API from "../../utils/API";
 import Nav from "../components/Nav";
 import Modal from "../components/Modal";
 import AdminModal from "../components/AdminModal";
+import { StickyContainer, Sticky } from 'react-sticky';
+
 
 class PortfolioItems extends Component {
   state = {
@@ -72,12 +74,33 @@ class PortfolioItems extends Component {
 
   render() {
     return (
-      <div className="portfolioPage" id="portfolio">
-        <div className="pageHeader" style={{width:"100%",backgroundColor:"white",opacity:1,zIndex:998}}>
-          <hr />
-          <h2 className="text-center">Portfolio</h2>
-          <hr />
-        </div>
+      <StickyContainer className="portfolioPage" id="portfolio">
+        <Sticky className="pageHeader" style={{width:"100%",backgroundColor:"white",opacity:1,zIndex:998}}>
+        {
+          ({
+            style = {
+              position:"fixed",
+              top:"0vh",
+              zIndex:999,
+              backgroundColor:"white"
+            },
+
+            isSticky,
+            wasSticky,
+            distanceFromTop,
+            distanceFromBottom,
+            calculatedHeight
+          }) => {
+            return (
+              <div className="stickyHeader" style={style}>
+                <hr />
+                <h2 className="text-center">Portfolio</h2>
+                <hr />
+              </div>
+            )
+          }
+        }
+        </Sticky>
         <Nav background="white"/>
         <br />
         <div className="port container" id="port">
@@ -136,7 +159,7 @@ class PortfolioItems extends Component {
               <br />                
           </div>
         
-      </div>
+      </StickyContainer>
     );
   }
 }

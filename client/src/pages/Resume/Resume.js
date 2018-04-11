@@ -1,22 +1,42 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
-
+import { StickyContainer, Sticky } from 'react-sticky';
 
 const Resume = () => (
-  <div style={{clear:"both"}} id="resume">
-    <div  style={{backgroundColor:"white",opacity:1,zIndex:998}}>
-	    <div className="pageHeader" style={{backgroundColor:"white",opacity:1,zIndex:998}}>
-	      <hr />
-	      <h2 className="text-center" >About Me</h2>
-	      <hr />
-	    </div>
+  <StickyContainer style={{clear:"both"}} id="resume">
+	    <Sticky className="pageHeader" style={{backgroundColor:"white",opacity:1,zIndex:998}}>
+          {
+            ({
+              style = {
+              	position:"fixed",
+              	top:"0vh",
+              	zIndex:998,
+              	backgroundColor:"white",
+              	opacity:1
+              },
+ 
+              isSticky,
+              wasSticky,
+              distanceFromTop,
+              distanceFromBottom,
+              calculatedHeight
+            }) => {
+              return (
+              	<div className="stickyHeader" style={style}>
+			    <hr />
+			    <h2 className="text-center">About Me</h2>
+			    <hr />
+			    </div>
+              )
+            }
+          }
+	    </Sticky>
 	  	<Nav background="white"/>
 	  	<br />
-	  	<div style={{position:"absolute",minWidth:"100%",backgroundColor:"white",opacity:1,zIndex:990}}>
-	  		<img className="zoomer" src="https://sammast.github.io/Responsive-Portfolio/assets/images/IMG_3302.jpg" alt="sam" style={{display:"block",margin:"auto",borderRadius:"50%",height:"25vh",width:"25vh",boxShadow:"0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)"}} />
+	  	<div style={{position:"absolute",minWidth:"100%",backgroundColor:"white",opacity:1,zIndex:993, marginTop:"5vh"}}>
+	  		<img className="zoomer" src="https://sammast.github.io/Responsive-Portfolio/assets/images/IMG_3302.jpg" alt="sam" style={{display:"block",margin:"auto",borderRadius:"50%",height:"25vh",width:"25vh",boxShadow:"0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)",zIndex:995}} />
 	  	</div>
-  	</div>
   	<div className="resumeScroll">
 	  	<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>I am a graduate of The University of Colorado at Boulder and University of Denver, currently working in the Web Development field. While attending CU Boulder, I studied and received my degree in Integrative Physiology. I previously worked for a tech company in the Health and Life insurance field, and after graduating from the University of Denver Coding Bootcamp I am now pursuing Web Development.</p>
 	  	<br />
@@ -97,7 +117,7 @@ const Resume = () => (
 		  </li>
 		</ul>  
     </div>
-  </div>
+  </StickyContainer>
 );
 
 export default Resume;

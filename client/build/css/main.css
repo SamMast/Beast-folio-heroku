@@ -76,6 +76,8 @@ a.hover {
   position: fixed;
   top: 10vh;
   left: 15vh;
+/*  padding-top: 10vh;
+*/  z-index: 991;
 }
 
 .pageHeader {
@@ -88,6 +90,11 @@ a.hover {
   z-index: 999;
 }
 
+.stickyHeader {
+  background-color: white;
+  z-index: 999;
+  opacity: 1;
+}
 
 .contact-links {
   font-size: 225%;
@@ -98,6 +105,23 @@ a.hover {
   z-index: 9999;
 }
 
+.arrow {
+  font-size: 225%;
+  display:block;
+  position: absolute;
+  left: 50%;
+  top: 95vh;
+  z-index: 9999;
+}
+
+.topButton {
+  font-size: 225%;
+  display:block;
+  position: fixed;
+  right: 4vh;
+  top: 95vh;
+  z-index: 9999;
+}
 
 .work {
   float:left;
@@ -512,8 +536,9 @@ body {
   width: 19vh;
 }
 
-.tech {
-  margin-top: 5vh;
+.tech,
+.cont {
+  margin-top: 7vh;
 }
 
 .techList {
