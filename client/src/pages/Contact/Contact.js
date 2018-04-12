@@ -58,7 +58,7 @@ class Contact extends Component {
             style = {
               position:"fixed",
               top:"0vh",
-              zIndex:999,
+              zIndex:988,
               backgroundColor:"white"
             },
 
