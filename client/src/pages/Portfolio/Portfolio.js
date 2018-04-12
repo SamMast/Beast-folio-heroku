@@ -103,6 +103,7 @@ class PortfolioItems extends Component {
         </Sticky>
         <Nav background="white"/>
         <br />
+        <p className="text-center" style={{display:"block",margin:"auto"}}>Here are some of my Projects:</p>
         <div className="port container" id="port">
           {this.state.projects.length ? (
             <div className="text-center card-deck fadeIn" id="allProjects" >

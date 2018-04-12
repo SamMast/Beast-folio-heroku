@@ -35,7 +35,7 @@ const Technologies = props => (
     <br />
     <br />
     <br />
-    <br />
+    <p className="text-center" style={{display:"block",margin:"auto"}}>Here are some of the Technologies that I am most comfortable with:</p>
     <div className="text-center tech container fadeIn">
       <ul className="techList row">
         <li className="col-md-3">HTML5<br /><img src="https://www.unixstickers.com/image/cache/data/stickers/html5/html5_bumper.sh-600x600.png" alt="html" /></li>

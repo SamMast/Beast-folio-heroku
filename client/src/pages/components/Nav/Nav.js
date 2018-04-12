@@ -66,6 +66,8 @@ class Nav extends Component {
           <a href="https://github.com/SamMast/" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
           <br/>
           <a href="mailto:samuel.a.mast@gmail.com"><i className="fa fa-envelope"></i></a>
+          <br/>
+          <a href="https://docs.google.com/document/d/1SvNGx-Zov0sGCItMEhysUmMGGzsb58NdOw43EJhl0tY/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-suitcase"></i></a>
         </div>
 
         <div className="arrow pulse">
@@ -73,7 +75,7 @@ class Nav extends Component {
         </div>
 
         <div className="topButton pulse">
-          <a href="/"><i className="fa fa-home"></i></a>
+          <a href="/" style={{fontSize:"119%"}}><i className="fa fa-angle-double-up"></i></a>
         </div>
 
       </div>
