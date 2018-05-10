@@ -40,7 +40,7 @@ const Resume = () => (
   	<div className="resumeScroll">
 	  	<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>Experienced Full- Stack Web Developer with a demonstrated history of working in numerous applications. Recently completed an immersive, full-stack program involving over 300 hours of coursework focusing on full stack web development. Currently searching for full-time employment.</p>
 	  	<br />
-		<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>Primary experience includes: HTML5, CSS3, JavaScript/jQuery, AJAX, JSON, Node.js, MongoDB, MySQL, Express.js, and React.js.</p>
+		<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}><strong>Primary experience includes:</strong> HTML5, CSS3, JavaScript/jQuery, AJAX, JSON, Node.js, MongoDB, MySQL, Express.js, and React.js.</p>
 		<br />
 		<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>I have a strong respect for the web development process and I am a team player with an understanding of client experience and relationships.</p>
 	  	<br />
