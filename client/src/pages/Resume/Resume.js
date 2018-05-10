@@ -38,7 +38,11 @@ const Resume = () => (
 	  		<img className="zoomer" src="https://sammast.github.io/Responsive-Portfolio/assets/images/IMG_3302.jpg" alt="sam" style={{display:"block",margin:"auto",borderRadius:"50%",height:"25vh",width:"25vh",boxShadow:"0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)",zIndex:995}} />
 	  	</div>
   	<div className="resumeScroll">
-	  	<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>I am a graduate of The University of Colorado at Boulder and University of Denver, currently working in the Web Development field. While attending CU Boulder, I studied and received my degree in Integrative Physiology. I previously worked for a tech company in the Health and Life insurance field, and after graduating from the University of Denver Coding Bootcamp I am now pursuing Web Development.</p>
+	  	<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>Experienced Full- Stack Web Developer with a demonstrated history of working in numerous applications. Recently completed an immersive, full-stack program involving over 300 hours of coursework focusing on full stack web development. Currently searching for full-time employment.</p>
+
+		<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>Primary experience includes: HTML5, CSS3, JavaScript/jQuery, AJAX, JSON, Node.js, MongoDB, MySQL, Express.js, React.js, and PHP.</p>
+
+		<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>I have a strong respect for the web development process and I am a team player with an understanding of client experience and relationships.</p>
 	  	<br />
 		<ul className="timeline fadeIn">
 	  	<h4 className="text-center" style={{textDecoration:"underline"}}>Resume:</h4>
