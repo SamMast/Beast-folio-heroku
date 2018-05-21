@@ -52,25 +52,25 @@ const Resume = () => (
 		    <label className="timeline-event-icon"></label>
 		    <div className="timeline-event-copy">
 		      <p className="timeline-event-thumbnail">2018</p>
-		      <h3>University of Denver Coding Bootcamp</h3>
-		      <h4>Student</h4>
-		      <p><strong>Info</strong><br/>Intensive Full Stack Web Development bootcamp where we covered HTML5, CSS3, JavaScript/jQuery, AJAX, JSON, Node.js, MongoDB, MySQL, Express.js, React.js, and PHP.</p>
-		      <p>This is where I honed my Web Development craft</p>
+		      <h3>Independent Consultant</h3>
+		      <h4>Full Stack Web Developer</h4>
+		      <p><strong>Info</strong><br/>Independent Consultant and Freelance Web Developer</p>
+		      <div><strong>Accomplishments</strong><br/>
+		      	<ul>
+		      		<li>Created Projects listed in Portfolio</li>
+		      		<li>Succesfully completed additional coursework to further my knowledge in Web/Software development.  Examples include "The Complete React Native and Redux Course" and "React - Mastering Test and Behavior Driven Development"</li>
+		      	</ul>
+		      </div>
 		    </div>
 		  </li>
 		  <li className="timeline-event">
 		    <label className="timeline-event-icon"></label>
 		    <div className="timeline-event-copy">
 		      <p className="timeline-event-thumbnail">2018</p>
-		      <h3>Independent Consultant</h3>
-		      <h4>Full Stack Web Developer</h4>
-		      <p><strong>Info</strong><br/>Independent Consultant and Freelance Web Developer</p>
-		      <div><strong>Accomplishments</strong><br/>
-		      	<ul>
-		      		<li>Completed projects to further my Web/Software development knowledge</li>
-		      		<li>Completed additional coursework to further my knowledge in Web/Software development</li>
-		      	</ul>
-		      </div>
+		      <h3>University of Denver Full Stack Web Development Program</h3>
+		      <h4>Student</h4>
+		      <p><strong>Info</strong><br/>Intensive Full Stack Web Development bootcamp where we covered HTML5, CSS3, JavaScript/jQuery, AJAX, JSON, Node.js, MongoDB, MySQL, Express.js, React.js, and PHP.</p>
+		      <p>This is where I honed my Web Development craft</p>
 		    </div>
 		  </li>
 		  <li className="timeline-event">
