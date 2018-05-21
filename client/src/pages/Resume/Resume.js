@@ -61,6 +61,21 @@ const Resume = () => (
 		  <li className="timeline-event">
 		    <label className="timeline-event-icon"></label>
 		    <div className="timeline-event-copy">
+		      <p className="timeline-event-thumbnail">2018</p>
+		      <h3>Independent Consultant</h3>
+		      <h4>Full Stack Web Developer</h4>
+		      <p><strong>Info</strong><br/>Independent Consultant and Freelance Web Developer</p>
+		      <div><strong>Accomplishments</strong><br/>
+		      	<ul>
+		      		<li>Completed projects to further my Web/Software development knowledge</li>
+		      		<li>Completed additional coursework to further my knowledge in Web/Software development</li>
+		      	</ul>
+		      </div>
+		    </div>
+		  </li>
+		  <li className="timeline-event">
+		    <label className="timeline-event-icon"></label>
+		    <div className="timeline-event-copy">
 		      <p className="timeline-event-thumbnail">2014 - 2017</p>
 		      <h3>Businessolver</h3>
 		      <h4>System Relationship Manager</h4>
