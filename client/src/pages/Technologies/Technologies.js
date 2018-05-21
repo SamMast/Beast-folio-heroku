@@ -45,7 +45,7 @@ const Technologies = props => (
         <li className="col-md-3">JSON<br /><img src="https://www.unixstickers.com/image/cache/data/stickers/json/json_bumper.sh-600x600.png" alt="json" /></li>
         <li className="col-md-3">Ajax<br /><img src="https://qph.fs.quoracdn.net/main-qimg-f66afd1b8305c03c5d019db5d5432aa5" alt="ajax"/></li>
         <li className="col-md-3">Firebase<br /><img src="https://firebase.google.com/_static/images/firebase/touchicon-180.png" alt="firebase" /></li>
-        <li className="col-md-3">Node.js<br /><img src="http://blog.iampuneet.in/upload-image-using-node-js-angular-js-multer-image-preview-2/" alt="node" /></li>
+        <li className="col-md-3">Node.js<br /><img src="http://blog.iampuneet.in/wp-content/uploads/2017/06/nodejs_logo.png" alt="node" /></li>
         <li className="col-md-3">Handlebars.js<br /><img src="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?fit=500%2C500&ssl=1" alt="handlebars" /></li>
         <li className="col-md-3">MySQL<br /><img src="https://www.seeklogo.net/wp-content/uploads/2017/05/mysql-logo.png" alt="mySQL" /></li>
         <li className="col-md-3">Sequelize<br /><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItOZhJ8dgXp-gyQ5bZQ4cXDeJrGvZ1QNYNEx8wz0nPRApeE2k" alt="sequelize" /></li>
