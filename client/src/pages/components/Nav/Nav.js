@@ -34,7 +34,9 @@ class Nav extends Component {
     return (
       <div>
         <div className="samLogo">
-          <img src="../../../public/images/sam-03.png" alt="logo" className="logoImage" />
+          <a href="/" >
+            <img src="https://raw.githubusercontent.com/SamMast/Beast-folio-heroku/master/client/public/images/sam-03.png" alt="logo" className="logoImage" style={styles.logoStyle}/>
+          </a>
         </div>
 
         <div className="menu pulse" onClick ={this.menuToggle}>
@@ -78,15 +80,22 @@ class Nav extends Component {
           <a href="#resume"><i className="fa fa-arrow-down"></i></a>
         </div>
 
-        <div className="topButton pulse">
-          <a href="/" style={{fontSize:"119%"}}><i className="fa fa-angle-double-up"></i></a>
-        </div>
-
       </div>
     );
   }
 }
 
-
+const styles = {
+  logoStyle: {
+    position: "fixed",
+    top: 5,
+    left: "2vh",
+    height: 100,
+    width: 100,
+    backgroundColor: "white",
+    zIndex: 9999,
+    boxShadow: "0 2px 5px 0 rgba(0,0,0,.16)"
+  }
+}
 
 export default Nav;
