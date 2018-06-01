@@ -33,6 +33,10 @@ class Nav extends Component {
   render() {
     return (
       <div>
+        <div className="samLogo">
+          <img src="../../../public/images/sam-03.png" alt="logo" className="logoImage" />
+        </div>
+
         <div className="menu pulse" onClick ={this.menuToggle}>
           <div className="hamburger"></div>
           <div className="hamburger"></div>
