@@ -94,7 +94,8 @@ const styles = {
     width: 100,
     backgroundColor: "white",
     zIndex: 9999,
-    boxShadow: "0 2px 5px 0 rgba(0,0,0,.16)"
+    boxShadow: "0 2px 5px 0 rgba(0,0,0,.16)",
+    borderRadius: "50%"
   }
 }
 
