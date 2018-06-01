@@ -11,11 +11,11 @@ class Home extends Component {
 
 			<div className="intro slideLeft">
 				<h1 className="header">
-					Samuel Mast
+					Samuel Alton Mast
 				</h1>
 				<div className="underscore">
 					<h4>Web Developer</h4>
-					<h4>Denver, Colorado</h4>
+					<h6>Denver, Colorado</h6>
 				</div>
 			</div>
 
