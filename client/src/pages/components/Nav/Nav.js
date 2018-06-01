@@ -35,7 +35,7 @@ class Nav extends Component {
       <div>
         <div className="samLogo">
           <a href="/" >
-            <img src="https://raw.githubusercontent.com/SamMast/Beast-folio-heroku/master/client/public/images/sam-03.png" alt="logo" className="logoImage" style={styles.logoStyle}/>
+            <img src="https://raw.githubusercontent.com/SamMast/Beast-folio-heroku/master/client/public/images/sam-08.png" alt="logo" className="logoImage" style={styles.logoStyle}/>
           </a>
         </div>
 
