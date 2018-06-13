@@ -16,8 +16,6 @@ const App = () => (
 		<Technologies />
 	    <br />
 	    <br />
-	    <br />
-	    <br />
 	    <Contact />
 
     </div>

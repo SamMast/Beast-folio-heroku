@@ -15,9 +15,9 @@ const Modal = props => (
         <a href={props.githubUrl} target="_blank"><span className="fa fa-github links"></span></a>
       </div>
       <br />
-      <p style={{fontSize:19}}><strong>Technologies:</strong> {props.tech}</p>
-      <br />
       <p style={{fontSize:19}}><strong>Description:</strong> {props.description}</p>
+      <br />
+      <p style={{fontSize:19}}><strong>Technologies:</strong> {props.tech}</p>
       <div className="close">
       <a onClick={props.close}>
         <span className="fa fa-close"></span>

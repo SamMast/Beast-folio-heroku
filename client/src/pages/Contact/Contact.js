@@ -71,7 +71,7 @@ class Contact extends Component {
             return (
               <div className="stickyHeader" style={style}>
                 <hr />
-                <h2 className="text-center" >Contact Form</h2>
+                <h2 className="text-center" >Contact</h2>
                 <hr />
               </div>
             )

@@ -25,9 +25,13 @@ class Nav extends Component {
   }
 
   scroll = (event) => {
-  let element = event.target.name;
-  
-  scrollToElement("#" + element);
+    event.preventDefault()
+
+    this.setState({ menuOpen: false })
+
+    let element = event.target.name;
+    
+    scrollToElement("#" + element);
   }
 
   render() {
