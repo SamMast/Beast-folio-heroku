@@ -618,7 +618,7 @@ body {
 
   .contact-links {
     display:inline;
-    background-color: white;
+    background-color: transparent;
     opacity: 1;
     z-index: 999;
     font-size: 150%;
@@ -626,12 +626,13 @@ body {
     padding-right: 2%;
     padding-left: 1%;
     border-radius: 5px;
-    top: 13%;
+    top: 25%;
     right: 0;
   }
 
-  .contact-links a {
-    padding-top: 12vh;
+  .contact-links a i {
+    padding: 25px 0;
+    opacity: .25;
   }
 
   .intro {
