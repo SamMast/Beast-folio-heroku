@@ -52,12 +52,27 @@ const Resume = () => (
 		    <label className="timeline-event-icon"></label>
 		    <div className="timeline-event-copy">
 		      <p className="timeline-event-thumbnail">2018</p>
+		      <h3>Trilogy Education Services</h3>
+		      <h4>Teaching Assistant</h4>
+		      <p><strong>Info</strong><br/>Teaching Assistant for a Full MERN Stack Web Development Course</p>
+		      <div><strong>Accomplishments</strong><br/>
+		      	<ul>
+		      		<li>Teaching students on various web development languages and subjects, including JavaScript, React, jQuery, MySQL, MongoDB, etc.</li>
+		      		<li>Assist students on homework and projects, as well as Grading all assignments after submission</li>
+		      	</ul>
+		      </div>
+		    </div>
+		  </li>
+		  <li className="timeline-event">
+		    <label className="timeline-event-icon"></label>
+		    <div className="timeline-event-copy">
+		      <p className="timeline-event-thumbnail">2018</p>
 		      <h3>Independent Consultant</h3>
 		      <h4>Full Stack Web Developer</h4>
 		      <p><strong>Info</strong><br/>Independent Consultant and Freelance Web Developer</p>
 		      <div><strong>Accomplishments</strong><br/>
 		      	<ul>
-		      		<li>Created Projects listed in Portfolio</li>
+		      		<li>Created Projects listed in Portfolio Section (below)</li>
 		      		<li>Succesfully completed additional coursework to further my knowledge in Web/Software development.  Examples include "The Complete React Native and Redux Course" and "React - Mastering Test and Behavior Driven Development"</li>
 		      	</ul>
 		      </div>
