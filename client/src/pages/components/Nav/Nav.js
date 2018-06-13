@@ -49,8 +49,8 @@ class Nav extends Component {
           <div className="nav" style={this.style}>
             <ul>
               <li><a name="resume" onClick= {this.scroll}>About</a></li>
-              <li><a name="techDiv" onClick= {this.scroll}>Technologies</a></li>
               <li><a name="portfolio" onClick= {this.scroll}>Portfolio</a></li>
+              <li><a name="techDiv" onClick= {this.scroll}>Technologies</a></li>
               <li><a name="contact" onClick= {this.scroll}>Contact</a></li>
             </ul>
           </div>

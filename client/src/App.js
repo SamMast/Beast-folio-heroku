@@ -12,8 +12,8 @@ const App = () => (
 	    <Home />
 	    <Resume />
 		<br />
-		<Technologies />
 	    <Portfolio />
+		<Technologies />
 	    <br />
 	    <br />
 	    <br />
