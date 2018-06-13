@@ -51,7 +51,7 @@ const Resume = () => (
 		  <li className="timeline-event">
 		    <label className="timeline-event-icon"></label>
 		    <div className="timeline-event-copy">
-		      <p className="timeline-event-thumbnail">2018</p>
+		      <p className="timeline-event-thumbnail">2018 - current</p>
 		      <h3>Trilogy Education Services</h3>
 		      <h4>Teaching Assistant</h4>
 		      <p><strong>Info</strong><br/>Teaching Assistant for a Full MERN Stack Web Development Course</p>
@@ -66,7 +66,7 @@ const Resume = () => (
 		  <li className="timeline-event">
 		    <label className="timeline-event-icon"></label>
 		    <div className="timeline-event-copy">
-		      <p className="timeline-event-thumbnail">2018</p>
+		      <p className="timeline-event-thumbnail">2018 - current</p>
 		      <h3>Independent Consultant</h3>
 		      <h4>Full Stack Web Developer</h4>
 		      <p><strong>Info</strong><br/>Independent Consultant and Freelance Web Developer</p>
