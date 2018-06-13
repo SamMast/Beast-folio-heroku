@@ -7,6 +7,7 @@ const Modal = props => (
     <div className="modal-left" style={{backgroundImage:`url(${props.imageUrl})`,backgroundSize:"fill"}}>
     </div>
     <div className="modal-right">
+
       <h1>{props.title}</h1>
       <br />
       <p style={{fontSize:15}}><strong>Links:</strong></p>
@@ -18,10 +19,11 @@ const Modal = props => (
       <p style={{fontSize:19}}><strong>Description:</strong> {props.description}</p>
       <br />
       <p style={{fontSize:19}}><strong>Technologies:</strong> {props.tech}</p>
+      
       <div className="close">
-      <a onClick={props.close}>
-        <span className="fa fa-close"></span>
-      </a>
+        <a onClick={props.close}>
+          <span className="fa fa-close"></span>
+        </a>
       </div>
     </div>
   </div>
