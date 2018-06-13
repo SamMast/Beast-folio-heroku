@@ -45,15 +45,16 @@ const Resume = () => (
 		<p className="text-center col-md-6 fadeIn" style={{margin:"auto"}}>I have a strong respect for the web development process and I am a team player with an understanding of client experience and relationships.</p>
 	  	<br />
 		<ul className="timeline fadeIn">
-	  	<h4 className="text-center" style={{textDecoration:"underline"}}>Resume:</h4>
+	  	<h4 className="text-center" style={{textDecoration:"underline"}}>Resume Timeline:</h4>
 	  	<br />
+			<em><p style={{fontSize: "75%", textAlign:"center"}}>See Briefcase link to the right for full Resume</p></em>
 	  	<br />
 		  <li className="timeline-event">
 		    <label className="timeline-event-icon"></label>
 		    <div className="timeline-event-copy">
 		      <p className="timeline-event-thumbnail">2018 - current</p>
 		      <h3>Trilogy Education Services</h3>
-		      <h4>Teaching Assistant</h4>
+		      <h4>Web Development Teaching Assistant</h4>
 		      <p><strong>Info</strong><br/>Teaching Assistant for a Full MERN Stack Web Development Course</p>
 		      <div><strong>Accomplishments</strong><br/>
 		      	<ul>
