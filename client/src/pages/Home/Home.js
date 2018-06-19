@@ -14,7 +14,7 @@ class Home extends Component {
 					Samuel Alton Mast
 				</h1>
 				<div className="underscore">
-					<h4>Web Developer</h4>
+					<h4>Developer</h4>
 					<h6>Denver, Colorado</h6>
 				</div>
 			</div>
